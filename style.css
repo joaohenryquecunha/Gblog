@@ -79,7 +79,7 @@ section main {
 }
 
 .card {
-    width: 300px;
+    width: 280px;
     height: 350px;
     margin-bottom: 60px;
 }
@@ -127,4 +127,20 @@ footer p {
 
 .icons {
     font-size: 40px;
+}
+
+@media (max-width:910px) {
+    .card {
+        width: 200px;
+    }
+}
+@media (max-width:670px) {
+    .card {
+        width: 150px;
+    }
+}
+@media (max-width:525px) {
+    .card {
+        width: 100px;
+    }
 }
