@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    border: 2px solid;
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 50px 0px;
+    filter: drop-shadow(15px 20px 10px rgb(0, 0, 0));
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+form input {
+    padding: 5px;
+    margin: 10px auto;
+    width: 220px;
+    background-color: rgb(199, 199, 199);
+    border: none;
+    border-radius: 5px;
+}
+
+form label {
+    display: flex;
+}
+
+.login {
+    display: flex;
+    margin: 10px auto;
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: #8a8a8a;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cadastro {
+    text-align: center;
+}
+
+.cadastro button {
+    border: none;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #333, #000);
+    cursor: pointer;
+}
+
+header {
+    height: 220px;
+    background-color: #333;
+}
+
+.content-header h3 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.content-header h3 span {
+    color: rgb(255, 72, 0);
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 102, 0);
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-radius: 25px 10px;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.text h1 span {
+    color: orangered;
+}
+
+.text p {
+    font-size: 20px;
+}
